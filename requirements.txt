@@ -1,0 +1,17 @@
+# ========================================
+# LiveKit Agent V3 - Dependências
+# ========================================
+# Agente de voz simples em português
+# Ferramentas: hora/data, clima simulado
+# ========================================
+
+# Core LiveKit
+livekit
+livekit-agents[openai,deepgram]
+
+# Plugins necessários
+openai        # TTS e LLM
+deepgram-sdk  # STT em português
+
+# Utilitários
+python-dotenv  # Carrega .env

@@ -1,0 +1,32 @@
+# ========================================
+# LiveKit Agent V3 - Git Ignore
+# ========================================
+
+# Variáveis de ambiente (NUNCA commitartamento!)
+.env
+
+# Ambiente virtual Python
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
