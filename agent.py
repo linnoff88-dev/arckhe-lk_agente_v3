@@ -1,5 +1,5 @@
 """
-Agente de Voz LiveKit - API v1.0 - VERSÃO 3
+Agente de Voz LiveKit - API v1.0 - VERSêO 3
 ============================================
 Melhorias:
 - STT em português (pt-BR)
@@ -20,7 +20,7 @@ from livekit.plugins import openai, deepgram
 # Carrega variáveis de ambiente
 load_dotenv()
 
-# Configuração de logging
+# Configuraçêo de logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -40,8 +40,8 @@ Características:
 - Quando usar ferramentas, explique o que está fazendo
 
 Suas capacidades:
-- Informar hora e data atual (qualquer localização)
-- Consultar previsão do tempo (simulado)
+- Informar hora e data atual (qualquer localizaçêo)
+- Consultar previsêo do tempo (simulado)
 - Conversar naturalmente sobre diversos assuntos"""
         )
 
@@ -50,13 +50,13 @@ Suas capacidades:
         """Obtém a hora e data atual.
 
         Args:
-            location: Localização opcional (ex: "São Paulo", "Nova York")
+            location: Localizaçêo opcional (ex: "Sêo Paulo", "Nova York")
         """
         current_time = datetime.now().strftime("%H:%M:%S")
         current_date = datetime.now().strftime("%d de %B de %Y")
         day_of_week = datetime.now().strftime("%A")
 
-        # Tradução simples dos dias da semana
+        # Traduçêo simples dos dias da semana
         days_pt = {
             "Monday": "segunda-feira",
             "Tuesday": "terça-feira",
@@ -69,18 +69,18 @@ Suas capacidades:
         day_pt = days_pt.get(day_of_week, day_of_week)
 
         if location:
-            return f"Em {location}, agora são {current_time}. Hoje é {day_pt}, {current_date}."
+            return f"Em {location}, agora sêo {current_time}. Hoje é {day_pt}, {current_date}."
 
-        return f"Agora são {current_time}. Hoje é {day_pt}, {current_date}."
+        return f"Agora sêo {current_time}. Hoje é {day_pt}, {current_date}."
 
     @function_tool
     async def get_weather(self, context: RunContext, city: str) -> str:
-        """Consulta a previsão do tempo para uma cidade.
+        """Consulta a previsêo do tempo para uma cidade.
 
         Args:
-            city: Nome da cidade (ex: "São Paulo", "Rio de Janeiro")
+            city: Nome da cidade (ex: "Sêo Paulo", "Rio de Janeiro")
         """
-        # Simulação realista de dados de clima
+        # Simulaçêo realista de dados de clima
         weather_conditions = {
             "ensolarado": "☀️",
             "parcialmente nublado": "⛅",
@@ -95,12 +95,12 @@ Suas capacidades:
         humidity = random.randint(40, 85)
         wind = random.randint(5, 25)
 
-        # Sensação térmica baseada na temperatura
+        # Sensaçêo térmica baseada na temperatura
         feels_like = temperature + random.randint(-3, 3)
 
-        result = f"{condition_emoji} Previsão para {city}:\n"
-        result += f"• Condição: {condition_name}\n"
-        result += f"• Temperatura: {temperature}°C (sensação de {feels_like}°C)\n"
+        result = f"{condition_emoji} Previsêo para {city}:\n"
+        result += f"• Condiçêo: {condition_name}\n"
+        result += f"• Temperatura: {temperature}°C (sensaçêo de {feels_like}°C)\n"
         result += f"• Umidade: {humidity}%\n"
         result += f"• Vento: {wind} km/h"
 
@@ -112,7 +112,7 @@ async def entrypoint(ctx: agents.JobContext):
 
     logger.info(f"🚀 Conectando à sala: {ctx.room.name}")
 
-    # Configura a sessão do agente com componentes em português
+    # Configura a sessêo do agente com componentes em português
     session = AgentSession(
         # STT em português brasileiro
         stt=deepgram.STT(
@@ -129,7 +129,7 @@ async def entrypoint(ctx: agents.JobContext):
         ),
     )
 
-    # Inicia a sessão com o agente
+    # Inicia a sessêo com o agente
     await session.start(
         room=ctx.room,
         agent=Assistant()
@@ -137,7 +137,7 @@ async def entrypoint(ctx: agents.JobContext):
 
     logger.info("✅ Agente v3 iniciado com sucesso!")
 
-    # Saudação inicial em português
+    # Saudaçêo inicial em português
     await session.generate_reply(
         instructions="""Cumprimente o usuário de forma calorosa e natural em português brasileiro.
         Diga seu nome (LiveKit Assistant) e pergunte como pode ajudar.

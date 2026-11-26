@@ -1,6 +1,6 @@
-# 🔄 Comparação: Agent V3 vs V4
+# 🔄 Comparaçêo: Agent V3 vs V4
 
-**Qual versão escolher? Depende do seu caso de uso!**
+**Qual versêo escolher? Depende do seu caso de uso!**
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Recurso | V3 | V4 |
 |---------|----|----|
-| **Conversação em PT-BR** | ✅ | ✅ |
+| **Conversaçêo em PT-BR** | ✅ | ✅ |
 | **STT (Deepgram)** | ✅ | ✅ |
 | **TTS (OpenAI)** | ✅ | ✅ |
 | **LLM (GPT-4o-mini)** | ✅ | ✅ |
@@ -35,17 +35,17 @@
 ## 🎯 Quando Usar V3
 
 ### ✅ Use V3 se:
-- ✅ Você quer uma **solução simples e rápida**
-- ✅ Precisa apenas de **conversação + hora/clima**
+- ✅ Você quer uma **soluçêo simples e rápida**
+- ✅ Precisa apenas de **conversaçêo + hora/clima**
 - ✅ Quer **entender** o código facilmente
-- ✅ Não precisa de integrações externas
+- ✅ Nêo precisa de integrações externas
 - ✅ Prefere **menos dependências**
 - ✅ É seu **primeiro** projeto com LiveKit
 - ✅ Quer **modificar** o código facilmente
 
 ### Casos de Uso V3:
 - 📞 **Assistente de atendimento simples**
-- 🎙️ **Podcast/streaming com interação básica**
+- 🎙️ **Podcast/streaming com interaçêo básica**
 - 🎓 **Aprendizado** (código limpo e fácil)
 - 🧪 **Prototipagem rápida**
 - 💬 **Chatbot de voz** sem integrações
@@ -141,12 +141,12 @@ Complexidade: ⭐⭐⭐⭐☆
 
 **Ideal para:**
 - Desenvolvedores experientes
-- Projetos de produção
+- Projetos de produçêo
 - Quem precisa escalabilidade
 
 ---
 
-## 🔧 Manutenção
+## 🔧 Manutençêo
 
 ### V3:
 - ✅ **Fácil de manter** (1 arquivo)
@@ -162,18 +162,18 @@ Complexidade: ⭐⭐⭐⭐☆
 
 ---
 
-## 🎓 Exemplo de Migração
+## 🎓 Exemplo de Migraçêo
 
 ### Cenário: Começou com V3, precisa de calendário
 
-**Opção 1: Migrar para V4**
+**Opçêo 1: Migrar para V4**
 ```
 Tempo: ~2-3 horas
 Benefícios: Google Calendar + busca web + tarefas
 Custo: Reescrever código
 ```
 
-**Opção 2: Adicionar ao V3**
+**Opçêo 2: Adicionar ao V3**
 ```python
 # Em agent.py, adicione:
 from lv_agente_v4.integrations.google_calendar import GoogleCalendarIntegration
@@ -206,7 +206,7 @@ class Assistant(Agent):
 - **V3:** Se quer apenas conversar + hora/clima
 - **V4:** Se precisa de calendário ou busca web
 
-### Para Produção:
+### Para Produçêo:
 - **V3:** Proof of concept
 - **V4:** Produto final
 
@@ -219,9 +219,9 @@ class Assistant(Agent):
 ## 📈 Roadmap Futuro
 
 ### V3 (Estável):
-- ✅ Versão completa e funcional
+- ✅ Versêo completa e funcional
 - ⚠️ Sem novas features planejadas
-- ✅ Manutenção apenas
+- ✅ Manutençêo apenas
 
 ### V4 (Ativo):
 - ✅ Google Tasks integrado (futuro)
@@ -229,43 +229,43 @@ class Assistant(Agent):
 - ✅ Relatórios de produtividade (futuro)
 - ✅ Lembretes proativos (futuro)
 
-**Conclusão:** V4 terá evolução contínua
+**Conclusêo:** V4 terá evoluçêo contínua
 
 ---
 
 ## 🤔 Perguntas Frequentes
 
 ### Q: Posso usar V3 e V4 juntos?
-**R:** Sim! São completamente independentes. Pode ter ambos rodando.
+**R:** Sim! Sêo completamente independentes. Pode ter ambos rodando.
 
 ### Q: Preciso reescrever tudo para migrar?
-**R:** Não. Pode adicionar funcionalidades do V4 ao V3 gradualmente.
+**R:** Nêo. Pode adicionar funcionalidades do V4 ao V3 gradualmente.
 
 ### Q: V4 é muito mais caro?
-**R:** Não. Custo adicional apenas ao usar busca web (~$0.003/busca).
+**R:** Nêo. Custo adicional apenas ao usar busca web (~$0.003/busca).
 
 ### Q: V3 vai parar de funcionar?
-**R:** Não. V3 é estável e continuará funcionando.
+**R:** Nêo. V3 é estável e continuará funcionando.
 
-### Q: Qual escolher para produção?
+### Q: Qual escolher para produçêo?
 **R:** Depende. V3 para simples, V4 para completo.
 
 ### Q: V3 pode fazer busca web?
-**R:** Não nativamente. Você precisaria adicionar manualmente.
+**R:** Nêo nativamente. Você precisaria adicionar manualmente.
 
 ### Q: V4 é mais lento?
 **R:** ~20% mais pesado, mas ainda rápido (<1s resposta).
 
 ---
 
-## 📊 Matriz de Decisão
+## 📊 Matriz de Decisêo
 
 ### Escolha V3 se:
 | Critério | Pontos |
 |----------|--------|
 | Projeto de aprendizado | +5 |
 | Primeira vez com LiveKit | +5 |
-| Apenas conversação básica | +5 |
+| Apenas conversaçêo básica | +5 |
 | Quer código simples | +4 |
 | Sem integrações externas | +4 |
 | Prototipagem rápida | +3 |
@@ -278,7 +278,7 @@ class Assistant(Agent):
 | Precisa Google Calendar | +10 |
 | Precisa busca web | +8 |
 | Gerenciamento de tarefas | +7 |
-| Projeto de produção | +5 |
+| Projeto de produçêo | +5 |
 | Arquitetura escalável | +5 |
 | Múltiplas integrações | +4 |
 
@@ -296,7 +296,7 @@ class Assistant(Agent):
 ### V4 = Poder
 - Múltiplos módulos, arquitetura modular
 - Google Calendar, busca web, tarefas
-- Ideal para produção
+- Ideal para produçêo
 
 ---
 
@@ -308,10 +308,10 @@ class Assistant(Agent):
 
 ---
 
-**🚀 Ambas versões são excelentes!**
+**🚀 Ambas versões sêo excelentes!**
 
 A diferença está no que você precisa:
 - **Simplicidade?** → V3
 - **Recursos?** → V4
 
-**Não há escolha errada! 🎉**
+**Nêo há escolha errada! 🎉**

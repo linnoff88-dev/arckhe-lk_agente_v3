@@ -8,7 +8,7 @@
 
 ### `agent.py` ⭐
 - **O que é:** Código principal do agente de voz
-- **Função:** Define o agente, ferramentas e comportamento
+- **Funçêo:** Define o agente, ferramentas e comportamento
 - **Editar?** Sim - para customizar o agente
 - **Tamanho:** ~150 linhas
 - **Linguagem:** Python 3.10+
@@ -16,14 +16,14 @@
 **Contém:**
 - Classe `Assistant` (agente principal)
 - Ferramentas: `get_current_time()`, `get_weather()`
-- Configuração de STT/LLM/TTS
+- Configuraçêo de STT/LLM/TTS
 - Ponto de entrada `entrypoint()`
 
 ---
 
 ### `requirements.txt`
 - **O que é:** Lista de dependências Python
-- **Função:** Define pacotes necessários
+- **Funçêo:** Define pacotes necessários
 - **Editar?** Raramente - apenas se adicionar novas bibliotecas
 - **Tamanho:** ~15 linhas
 
@@ -37,16 +37,16 @@
 ---
 
 ### `start.bat` (Windows)
-- **O que é:** Script de inicialização
-- **Função:** Ativa venv e inicia o agente
-- **Editar?** Não necessário
+- **O que é:** Script de inicializaçêo
+- **Funçêo:** Ativa venv e inicia o agente
+- **Editar?** Nêo necessário
 - **Alternativa Linux/Mac:** Use `python agent.py dev` diretamente
 
 ---
 
 ### `.env` (você cria)
-- **O que é:** Arquivo de configuração com API keys
-- **Função:** Armazena credenciais sensíveis
+- **O que é:** Arquivo de configuraçêo com API keys
+- **Funçêo:** Armazena credenciais sensíveis
 - **Editar?** Sim - OBRIGATÓRIO para funcionar
 - **⚠️ IMPORTANTE:** NUNCA commite para git!
 
@@ -63,29 +63,29 @@ DEEPGRAM_API_KEY=...
 
 ### `.env.example`
 - **O que é:** Template do `.env`
-- **Função:** Mostra quais variáveis são necessárias
-- **Editar?** Não - copie para `.env` e edite lá
+- **Funçêo:** Mostra quais variáveis sêo necessárias
+- **Editar?** Nêo - copie para `.env` e edite lá
 
 ---
 
 ### `.gitignore`
 - **O que é:** Lista de arquivos ignorados pelo Git
-- **Função:** Protege `.env` e `venv/` de serem commitados
+- **Funçêo:** Protege `.env` e `venv/` de serem commitados
 - **Editar?** Raramente
 
 ---
 
-## 📖 Documentação
+## 📖 Documentaçêo
 
 ### `README.md` ⭐⭐⭐
-- **O que é:** Documentação completa do projeto
+- **O que é:** Documentaçêo completa do projeto
 - **Conteúdo:**
-  - Instalação detalhada
-  - Configuração
+  - Instalaçêo detalhada
+  - Configuraçêo
   - Exemplos de uso
   - Troubleshooting
   - Especificações técnicas
-  - Comparação V3 vs V4
+  - Comparaçêo V3 vs V4
 - **Leia:** Primeira coisa a fazer!
 
 ---
@@ -95,7 +95,7 @@ DEEPGRAM_API_KEY=...
 - **Conteúdo:**
   - Setup rápido (< 5 minutos)
   - Comandos essenciais
-  - Verificação
+  - Verificaçêo
   - Problemas comuns
 - **Leia:** Se quer começar rapidamente
 
@@ -103,18 +103,18 @@ DEEPGRAM_API_KEY=...
 
 ### `INDEX.md` (este arquivo)
 - **O que é:** Índice de todos os arquivos
-- **Conteúdo:** Descrição de cada arquivo do projeto
+- **Conteúdo:** Descriçêo de cada arquivo do projeto
 - **Leia:** Para entender a estrutura
 
 ---
 
 ## 📁 Diretórios
 
-### `venv/` (criado após instalação)
+### `venv/` (criado após instalaçêo)
 - **O que é:** Ambiente virtual Python
-- **Função:** Isola dependências do projeto
+- **Funçêo:** Isola dependências do projeto
 - **Tamanho:** ~200-300 MB
-- **Git:** Ignorado (não versionar)
+- **Git:** Ignorado (nêo versionar)
 - **Como criar:** `python -m venv venv`
 - **Como ativar:** `venv\Scripts\activate` (Windows)
 
@@ -130,8 +130,8 @@ DEEPGRAM_API_KEY=...
 - `agent.py` - Código do agente
 - `requirements.txt` - Dependências
 - `.env.example` - Template
-- `.gitignore` - Proteção
-- Documentação (README, etc.)
+- `.gitignore` - Proteçêo
+- Documentaçêo (README, etc.)
 
 ---
 
@@ -150,7 +150,7 @@ DEEPGRAM_API_KEY=...
 2. Executar `python agent.py dev`
 3. Conectar client e testar
 
-### Customização:
+### Customizaçêo:
 1. Editar `agent.py`
 2. Testar mudanças
 3. Commitar (sem `.env` e `venv/`)
@@ -169,7 +169,7 @@ README.md            ~20 KB
 INICIO_RAPIDO.md     ~5 KB
 INDEX.md             ~5 KB (este arquivo)
 
-venv/                ~200-300 MB (após instalação)
+venv/                ~200-300 MB (após instalaçêo)
 .env                 ~500 bytes (você cria)
 ```
 
@@ -186,11 +186,11 @@ venv/                ~200-300 MB (após instalação)
 ### Você PODE editar:
 - ✅ `agent.py` - Para customizar o agente
 - ✅ `README.md` - Para documentar suas mudanças
-- ✅ `start.bat` - Para ajustar o script de inicialização
+- ✅ `start.bat` - Para ajustar o script de inicializaçêo
 
-### Você NÃO DEVE editar:
+### Você NêO DEVE editar:
 - ❌ `venv/` - Gerado automaticamente
-- ❌ `.env.example` - Template padrão
+- ❌ `.env.example` - Template padrêo
 - ❌ `.gitignore` - A menos que saiba o que está fazendo
 
 ---
@@ -233,10 +233,10 @@ A: No arquivo `.env` (copie de `.env.example`)
 A: Edite `agent.py`
 
 **Q: Preciso do V4?**
-A: Não, se apenas quer conversação simples. V3 é independente.
+A: Nêo, se apenas quer conversaçêo simples. V3 é independente.
 
-**Q: Posso deletar a documentação?**
-A: Sim, mas não recomendado. Mantenha pelo menos o README.md
+**Q: Posso deletar a documentaçêo?**
+A: Sim, mas nêo recomendado. Mantenha pelo menos o README.md
 
 ---
 
@@ -244,7 +244,7 @@ A: Sim, mas não recomendado. Mantenha pelo menos o README.md
 
 Agora que você conhece a estrutura:
 
-1. ✅ **Instalação** - Siga o INICIO_RAPIDO.md
+1. ✅ **Instalaçêo** - Siga o INICIO_RAPIDO.md
 2. ✅ **Teste** - Execute e converse com o agente
 3. ✅ **Customize** - Edite agent.py para suas necessidades
 4. ✅ **Explore** - Leia o README.md completo
@@ -252,7 +252,7 @@ Agora que você conhece a estrutura:
 
 ---
 
-**📚 Documentação Completa:**
+**📚 Documentaçêo Completa:**
 - `README.md` - Tudo sobre o projeto
 - `INICIO_RAPIDO.md` - Setup em 5 passos
 - `INDEX.md` - Este arquivo
@@ -260,11 +260,11 @@ Agora que você conhece a estrutura:
 **🎯 Arquivos Essenciais:**
 - `agent.py` - Código principal
 - `requirements.txt` - Dependências
-- `.env` - Configuração (você cria)
+- `.env` - Configuraçêo (você cria)
 
 **🛠️ Utilities:**
-- `start.bat` - Script de inicialização
-- `.gitignore` - Proteção
+- `start.bat` - Script de inicializaçêo
+- `.gitignore` - Proteçêo
 
 ---
 

@@ -60,7 +60,7 @@ DEEPGRAM_API_KEY=...
 
 **💡 Dica:** Você precisa criar contas nesses serviços:
 - [LiveKit Cloud](https://cloud.livekit.io/) (Plano gratuito disponível)
-- [OpenAI](https://platform.openai.com/) (Requer cartão, mas custa centavos)
+- [OpenAI](https://platform.openai.com/) (Requer cartêo, mas custa centavos)
 - [Deepgram](https://console.deepgram.com/) (Plano gratuito disponível)
 
 ---
@@ -78,7 +78,7 @@ python agent.py dev
 
 ---
 
-## ✅ Verificação
+## ✅ Verificaçêo
 
 Se tudo deu certo, você verá:
 
@@ -102,8 +102,8 @@ Se tudo deu certo, você verá:
 1. **Conecte-se ao LiveKit** usando um client (ex: web app, mobile app)
 2. **Fale com o agente:**
    - _"Oi!"_
-   - _"Que horas são?"_
-   - _"Como está o tempo em São Paulo?"_
+   - _"Que horas sêo?"_
+   - _"Como está o tempo em Sêo Paulo?"_
 
 ---
 
@@ -133,7 +133,7 @@ pip install -r requirements.txt
 
 ✅ Agente funcionando? Agora você pode:
 
-1. **Ler o README.md** - Documentação completa
+1. **Ler o README.md** - Documentaçêo completa
 2. **Personalizar o agente** - Edite `agent.py`
 3. **Adicionar ferramentas** - Veja exemplos no código
 4. **Migrar para V4** - Se precisar de recursos avançados

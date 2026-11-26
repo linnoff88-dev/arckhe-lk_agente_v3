@@ -1,16 +1,16 @@
 # 🎯 LEIA PRIMEIRO - LiveKit Agent V3 Isolado
 
-**Bem-vindo à versão isolada e independente do Agent V3!**
+**Bem-vindo à versêo isolada e independente do Agent V3!**
 
 ---
 
 ## ✅ O que foi criado
 
-Esta pasta contém uma **versão completamente isolada** do LiveKit Agent V3.
+Esta pasta contém uma **versêo completamente isolada** do LiveKit Agent V3.
 
 **Características:**
 - ✅ **100% funcional** - Pronto para usar
-- ✅ **Independente** - Não depende de V4, V2 ou outros
+- ✅ **Independente** - Nêo depende de V4, V2 ou outros
 - ✅ **Limpo** - Apenas código V3, sem misturas
 - ✅ **Documentado** - Guias completos incluídos
 
@@ -21,17 +21,17 @@ Esta pasta contém uma **versão completamente isolada** do LiveKit Agent V3.
 ### 🚀 Essenciais (para funcionar):
 1. **`agent.py`** - Código do agente (150 linhas)
 2. **`requirements.txt`** - Dependências Python
-3. **`.env.example`** - Template de configuração
+3. **`.env.example`** - Template de configuraçêo
 4. **`start.bat`** - Script para iniciar (Windows)
 
-### 📚 Documentação (leia antes de usar):
-5. **`README.md`** - Documentação completa (20 KB)
+### 📚 Documentaçêo (leia antes de usar):
+5. **`README.md`** - Documentaçêo completa (20 KB)
 6. **`INICIO_RAPIDO.md`** - Guia de 5 passos (5 min)
 7. **`INDEX.md`** - Índice de todos os arquivos
-8. **`V3_VS_V4.md`** - Comparação V3 vs V4
+8. **`V3_VS_V4.md`** - Comparaçêo V3 vs V4
 
 ### 🔧 Utilitários:
-9. **`.gitignore`** - Proteção para Git
+9. **`.gitignore`** - Proteçêo para Git
 10. **`README_FIRST.md`** - Este arquivo
 
 ---
@@ -72,29 +72,29 @@ start.bat
 python agent.py dev
 ```
 
-**Documentação completa:** Leia `INICIO_RAPIDO.md`
+**Documentaçêo completa:** Leia `INICIO_RAPIDO.md`
 
 ---
 
 ## 📖 Ordem de Leitura Recomendada
 
 1. ✅ **`README_FIRST.md`** (este arquivo) - 2 min
-2. ✅ **`INICIO_RAPIDO.md`** - Configuração rápida - 5 min
-3. ✅ **`README.md`** - Documentação completa - 20 min
+2. ✅ **`INICIO_RAPIDO.md`** - Configuraçêo rápida - 5 min
+3. ✅ **`README.md`** - Documentaçêo completa - 20 min
 4. 📚 **`INDEX.md`** - Referência de arquivos - 5 min
-5. 📚 **`V3_VS_V4.md`** - Comparação versões - 10 min
+5. 📚 **`V3_VS_V4.md`** - Comparaçêo versões - 10 min
 
 ---
 
 ## 🎯 O que o Agent V3 faz?
 
 ### Capacidades:
-- ✅ **Conversação natural** em português brasileiro
-- ✅ **Consulta hora/data** (qualquer localização)
-- ✅ **Previsão do tempo** (simulado)
+- ✅ **Conversaçêo natural** em português brasileiro
+- ✅ **Consulta hora/data** (qualquer localizaçêo)
+- ✅ **Previsêo do tempo** (simulado)
 - ✅ **Resposta rápida** (~500-800ms latência)
 
-### O que NÃO tem (use V4 para isso):
+### O que NêO tem (use V4 para isso):
 - ❌ Google Calendar
 - ❌ Busca web real
 - ❌ Gerenciamento de tarefas
@@ -113,15 +113,15 @@ A: Sim! V3 é simples e focado. V4 tem Google Calendar, busca web, etc.
 A: Sim! V3 é completamente independente.
 
 **Q: Precisa de muitas dependências?**
-A: Não! Apenas 5 pacotes Python básicos.
+A: Nêo! Apenas 5 pacotes Python básicos.
 
 **Q: É difícil configurar?**
-A: Não! Menos de 5 minutos seguindo o guia.
+A: Nêo! Menos de 5 minutos seguindo o guia.
 
 **Q: Quanto custa?**
-A: ~$0.0063/minuto de conversação (muito barato!)
+A: ~$0.0063/minuto de conversaçêo (muito barato!)
 
-**Q: Funciona em produção?**
+**Q: Funciona em produçêo?**
 A: Sim! É estável e testado.
 
 ---
@@ -130,12 +130,12 @@ A: Sim! É estável e testado.
 
 ### ✅ Ideal para:
 - Iniciantes em LiveKit
-- Projetos simples de conversação
+- Projetos simples de conversaçêo
 - Aprendizado (código limpo e fácil)
 - Prototipagem rápida
-- Quem não precisa de calendário/busca web
+- Quem nêo precisa de calendário/busca web
 
-### ❌ Não ideal para:
+### ❌ Nêo ideal para:
 - Projetos que precisam de Google Calendar
 - Sistemas que exigem busca web
 - Gerenciamento complexo de tarefas
@@ -182,7 +182,7 @@ A: Sim! É estável e testado.
 
 1. ✅ **Configure o ambiente** (siga `INICIO_RAPIDO.md`)
 2. ✅ **Teste o agente** (fale com ele!)
-3. ✅ **Leia a documentação** (`README.md`)
+3. ✅ **Leia a documentaçêo** (`README.md`)
 4. ✅ **Customize** (edite `agent.py`)
 5. ✅ **Divirta-se!**
 
@@ -190,11 +190,11 @@ A: Sim! É estável e testado.
 
 ## 📞 Suporte
 
-### Documentação:
+### Documentaçêo:
 - **Início Rápido:** `INICIO_RAPIDO.md`
 - **Completo:** `README.md`
 - **Referência:** `INDEX.md`
-- **Comparação:** `V3_VS_V4.md`
+- **Comparaçêo:** `V3_VS_V4.md`
 
 ### Problemas Comuns:
 - **"ModuleNotFoundError"** → Ative o venv e reinstale
@@ -213,19 +213,19 @@ lk_agente_v3/
 ├── 🚀 EXECUTAR
 │   ├── agent.py              # Código principal
 │   ├── start.bat             # Inicia o agente
-│   └── .env                  # Configuração (você cria)
+│   └── .env                  # Configuraçêo (você cria)
 │
-├── 📦 CONFIGURAÇÃO
+├── 📦 CONFIGURAÇêO
 │   ├── requirements.txt      # Dependências
 │   ├── .env.example          # Template
-│   └── .gitignore           # Proteção Git
+│   └── .gitignore           # Proteçêo Git
 │
-└── 📚 DOCUMENTAÇÃO
+└── 📚 DOCUMENTAÇêO
     ├── README_FIRST.md       # ← VOCÊ ESTÁ AQUI
     ├── INICIO_RAPIDO.md      # Guia de 5 passos
-    ├── README.md             # Documentação completa
+    ├── README.md             # Documentaçêo completa
     ├── INDEX.md              # Índice de arquivos
-    └── V3_VS_V4.md          # Comparação versões
+    └── V3_VS_V4.md          # Comparaçêo versões
 ```
 
 ---
@@ -252,10 +252,10 @@ start.bat
 
 ---
 
-## 🏆 Versão Isolada = Liberdade
+## 🏆 Versêo Isolada = Liberdade
 
-**Benefícios desta versão:**
-- ✅ Sem confusão com V4
+**Benefícios desta versêo:**
+- ✅ Sem confusêo com V4
 - ✅ Sem dependências extras
 - ✅ Código limpo e simples
 - ✅ Fácil de versionar
@@ -269,6 +269,6 @@ start.bat
 
 ---
 
-**Documentação criada em:** 12 de Outubro de 2025
-**Versão do Agent:** 3.0
+**Documentaçêo criada em:** 12 de Outubro de 2025
+**Versêo do Agent:** 3.0
 **Status:** Estável e Pronto para Uso
